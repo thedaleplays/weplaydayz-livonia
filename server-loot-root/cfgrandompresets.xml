@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
-		<cargo chance="0.15" name="foodHermit">
+		<cargo chance="0.10" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
 				<item name="SardinesCan" chance="0.11" />
 		</cargo>
-		<cargo chance="0.18" name="foodVillage">
+		<cargo chance="0.10" name="foodVillage">
 				<item name="SodaCan_Cola" chance="0.05" />
 				<item name="SodaCan_Pipsi" chance="0.05" />
 				<item name="SodaCan_Spite" chance="0.05" />
@@ -14,7 +14,7 @@
 				<item name="SpaghettiCan" chance="0.10" />
 				<item name="BakedBeansCan" chance="0.10" />
 		</cargo>
-		<cargo chance="0.18" name="foodCity"> <!--same as the one above - just preparing -->
+		<cargo chance="0.10" name="foodCity"> <!--same as the one above - just preparing -->
 				<item name="SodaCan_Cola" chance="0.05" />
 				<item name="SodaCan_Pipsi" chance="0.05" />
 				<item name="SodaCan_Spite" chance="0.05" />
@@ -24,7 +24,7 @@
 				<item name="SpaghettiCan" chance="0.10" />
 				<item name="BakedBeansCan" chance="0.10" />
 		</cargo>
-		<cargo chance="0.1" name="foodArmy">
+		<cargo chance="0.05" name="foodArmy">
 				<item name="SodaCan_Cola" chance="0.05" />
 				<item name="SodaCan_Pipsi" chance="0.05" />
 				<item name="SodaCan_Spite" chance="0.05" />
@@ -36,7 +36,7 @@
 				<item name="TacticalBaconCan" chance="0.1" />
 				<item name="Canteen" chance="0.1" />
 		</cargo>
-		<cargo chance="0.15" name="toolsHermit">
+		<cargo chance="0.12" name="toolsHermit">
 				<item name="Matchbox" chance="0.15" />
 				<item name="CanOpener" chance="0.05" />
 				<item name="Rope" chance="0.07" />
@@ -114,7 +114,7 @@
 				<item name="Battery9V" chance="0.2" />
 				<item name="Flashlight" chance="0.2" />
 		</cargo>
-		<cargo chance="0.15" name="ammoCivil">
+		<cargo chance="0.05" name="ammoCivil">
 				<item name="Ammo_380" chance="0.22" />
 				<item name="AmmoBox_380_35Rnd" chance="0.08" />
 				<item name="Ammo_9x19" chance="0.15" />
@@ -124,13 +124,13 @@
 				<item name="Ammo_762x54" chance="0.08" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.02" />
 		</cargo>
-		<cargo chance="0.3" name="ammoPolice">
+		<cargo chance="0.10" name="ammoPolice">
 				<item name="Ammo_9x19" chance="0.3" />
 				<item name="AmmoBox_9x19_25Rnd" chance="0.1" />
 				<item name="Ammo_45ACP" chance="0.3" />
 				<item name="AmmoBox_45ACP_25Rnd" chance="0.1" />
 		</cargo>
-		<cargo chance="0.25" name="ammoArmy">
+		<cargo chance="0.12" name="ammoArmy">
 				<item name="Ammo_45ACP" chance="0.2" />
 				<item name="AmmoBox_45ACP_25Rnd" chance="0.05" />
 				<item name="Ammo_762x39" chance="0.2" />
@@ -138,7 +138,7 @@
 				<item name="Ammo_762x54" chance="0.2" />
 				<item name="AmmoBox_762x54_20Rnd" chance="0.05" />
 		</cargo>
-		<cargo chance="0.1" name="mixVillage">
+		<cargo chance="0.08" name="mixVillage">
 				<item name="DuctTape" chance="0.07" />
 				<item name="Battery9V" chance="0.07" />
 				<item name="Paper" chance="0.1" />
@@ -190,7 +190,7 @@
 				<item name="SpaghettiCan" chance="0.09" />
 				<item name="BakedBeansCan" chance="0.09" />
 		</cargo>
-		<cargo chance="0.1" name="mixArmy">
+		<cargo chance="0.06" name="mixArmy">
 				<item name="SodaCan_Cola" chance="0.05" />
 				<item name="SodaCan_Pipsi" chance="0.05" />
 				<item name="SodaCan_Spite" chance="0.05" />

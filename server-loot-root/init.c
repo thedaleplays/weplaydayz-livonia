@@ -68,6 +68,9 @@ class CustomMission: MissionServer
 		ItemBase itemBs;
 		float rand;
 
+        itemEnt = player.GetInventory().CreateInInventory("tshirt_white_tdp");
+		itemBs = ItemBase.Cast(itemEnt);
+
 		itemTop = player.FindAttachmentBySlotName("Body");
 
 		if ( itemTop )
@@ -82,6 +85,8 @@ class CustomMission: MissionServer
 			int rndIndex = Math.RandomInt(0, 4);
 			itemEnt = itemTop.GetInventory().CreateInInventory(chemlightArray[rndIndex]);
 			SetRandomHealth(itemEnt);
+			
+			
 		}
 	}
 };

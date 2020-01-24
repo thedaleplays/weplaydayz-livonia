@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
     <event name="AmbientHen">
         <nominal>3</nominal>
@@ -15,9 +15,9 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticus"/>
-            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_GallusGallusDomesticusF_Brown"/>
-            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_GallusGallusDomesticusF_Spotted"/>
-            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_GallusGallusDomesticusF_White"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticusF_Brown"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticusF_Spotted"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_GallusGallusDomesticusF_White"/>
         </children>
     </event>
     <event name="AmbientTest">
@@ -55,7 +55,7 @@
     <event name="AnimalCow">
         <nominal>4</nominal>
         <min>1</min>
-        <max>3</max>
+        <max>1</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -66,11 +66,11 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurusF_Brown"/>
-            <child lootmax="0" lootmin="0" max="2" min="0" type="Animal_BosTaurusF_Spotted"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_BosTaurusF_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurusF_Spotted"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurusF_White"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_BosTaurus_Brown"/>
-            <child lootmax="0" lootmin="0" max="2" min="0" type="Animal_BosTaurus_Spotted"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_BosTaurus_Brown"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurus_Spotted"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_BosTaurus_White"/>
         </children>
     </event>
@@ -89,7 +89,7 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CervusElaphus"/>
-            <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_CervusElaphusF"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_CervusElaphusF"/>
         </children>
     </event>
     <event name="AnimalGoat">
@@ -115,7 +115,7 @@
     <event name="AnimalPig">
         <nominal>4</nominal>
         <min>1</min>
-        <max>3</max>
+        <max>2</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -126,7 +126,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_SusDomesticus"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_SusDomesticus"/>
         </children>
     </event>
     <event name="AnimalRoeDeer">
@@ -148,25 +148,7 @@
         </children>
     </event>
     <event name="AnimalSheep">
-        <nominal>7</nominal>
-        <min>3</min>
-        <max>5</max>
-        <lifetime>180</lifetime>
-        <restock>0</restock>
-        <saferadius>200</saferadius>
-        <distanceradius>0</distanceradius>
-        <cleanupradius>0</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>child</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_OvisAries"/>
-            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_OvisAriesF"/>
-        </children>
-    </event>
-    <event name="AnimalWildBoar">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <min>1</min>
         <max>3</max>
         <lifetime>180</lifetime>
@@ -179,7 +161,25 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_SusScrofa"/>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_OvisAries"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_OvisAriesF"/>
+        </children>
+    </event>
+    <event name="AnimalWildBoar">
+        <nominal>4</nominal>
+        <min>1</min>
+        <max>2</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_SusScrofa"/>
         </children>
     </event>
     <event name="AnimalWolf">
@@ -693,7 +693,7 @@
         </children>
     </event>
     <event name="TrajectoryStones">
-        <nominal>100</nominal>
+        <nominal>60</nominal>
         <min>1</min>
         <max>3</max>
         <lifetime>180</lifetime>

@@ -1,5 +1,6 @@
 # weplaydays-livonia
 WePlayDayZ on Livonia's Server Files
+
 Used with version 1.06 so there may be additional changes in the server loot files for new items added after that version.
 
 # server-loot-root folder
